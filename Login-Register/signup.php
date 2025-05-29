@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         mysqli_stmt_close($stmt);
     }
-    header("Location: ../Login-Register/sms-otp-verification/index.html");
+    header("Location: ../Login-Register/login.php");
     exit;
 }
 ?>
